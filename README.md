@@ -1,10 +1,10 @@
-# Multiple File Compilation Checker (g++)
+# Multiple File Compilation Checker
 
 A script that uses the g++ compiler to compile all files in a directory and prints out live results.
 
 ## How to use
 
-Using bash, type ````./checkFileCompiles PATH/TO/DIR/CONTAINING/SUBMISSIONS/DIR````. This will run the script with the given parameter.
+Using bash, type ````./checkFileCompiles PATH/TO/DIR/CONTAINING/SUBMISSIONS/DIR```` when bash is currently in the same directory as the file. This will run the script with the given parameter.
 
 ## Understanding the Output
 
