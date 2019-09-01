@@ -1,0 +1,11 @@
+#Script file that checks if all cpp files in folder "submissions" compile according to g++
+#Author: Jasmohan Bawa (Bawa.19)
+#Requires: All files must be in a folder called "submissions". The folder must have the same location as this script. Must have g++ compiler
+#Last Update: 8/31/2019
+FILES=submissions/*
+for f in $FILES
+do
+  echo "Processing $f file..."
+  g++ "$f"
+  echo "_________________________"  
+done
