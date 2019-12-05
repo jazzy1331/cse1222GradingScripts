@@ -1,6 +1,6 @@
 # Multiple File Compilation Checker
 
-A script that uses the g++ compiler to compile a students program file, with an input file, and displays contents of output file
+A script that uses the g++ compiler to compile a students program file, with an input file, and displays contents of output file.
 
 ## How to use
 

@@ -1,6 +1,6 @@
 # Multiple File Compilation Checker
 
-A script that uses the g++ compiler to compile all files in a directory and prints out live results.
+A script that uses the g++ compiler to compile all files in a directory and prints out live compilation results.
 
 ## How to use
 
