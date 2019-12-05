@@ -1,0 +1,12 @@
+#!/bin/bash
+#Script that compiles a file with a given input and displays the output file
+#Author: Jasmohan Bawa (Bawa.19)
+#Parameter: Student's .cpp file
+#Requires: Must have g++ compiler. File called "input" that has the exact input necessary for full execution of student's program. Program must know that output file is called "outfile".
+#Last Update: 12/5/2019
+
+  echo "Processing $1 file..."
+  g++ "$1"
+  a.out < input
+  echo "_________________________"  
+  cat outfile

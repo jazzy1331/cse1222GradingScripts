@@ -8,7 +8,11 @@ Using bash, type ````./checkFileCompiles PATH/TO/DIR/CONTAINING/SUBMISSIONS/DIR`
 
 ## Understanding the Output
 
-Every file processed is separated by a horizonatal line. Every file that compiles successfully will have no extra output messages. Files that return output when compiled using g++ will display it below the "processing" line and above the the horizontal line divider.
+Every file processed is separated by a horizontal line. Every file that compiles successfully will have no extra output messages. Files that return output when compiled using g++ will display it below the "processing" line and above the horizontal line divider.
+
+## Requirements
+* All files must be in a folder called "submissions".
+* Must have g++ compiler.
 
 ## Use Case
 

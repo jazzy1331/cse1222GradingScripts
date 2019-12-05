@@ -1,4 +1,4 @@
-#Script Script that checks if all files in directory "submissions" compile according to g++
+#Script that checks if all files in directory "submissions" compile according to g++
 #Author: Jasmohan Bawa (Bawa.19)
 #Parameter: Path to directory which contains directory "submissions"
 #Requires: All files must be in a folder called "submissions". Must have g++ compiler
