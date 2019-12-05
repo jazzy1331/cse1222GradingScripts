@@ -20,7 +20,7 @@ The script prints a message stating the file being processed, prints a horizonta
 ## Use Case
 
 ### Primary
-* To check the compilation of lab 13 _.cpp_ file submitted by students to OSU's Carmen system that are compiled using a g++ compiler.
+* To check the compilation of lab 13 _.cpp_ file submitted by students compiled using a g++ compiler.
 
 ### Alternate
 
