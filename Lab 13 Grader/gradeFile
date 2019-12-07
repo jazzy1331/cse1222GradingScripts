@@ -10,3 +10,4 @@
   a.out < input
   echo "_________________________"  
   cat outfile
+  rm outfile
