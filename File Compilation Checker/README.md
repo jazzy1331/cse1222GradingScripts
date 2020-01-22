@@ -23,3 +23,6 @@ Every file processed is separated by a horizontal line. Every file that compiles
 
 * By editing the value of the ````FILES```` variable, this script can be used with any directory.
 * By editing the ````g++```` command, this script can be used with any command.
+
+## Troubleshooting
+If error occurs, type ````ls -al```` and make sure that the script file has executable(````x````) permissions. If it doesn't enter ````chmod +x checkFileCompiles````
