@@ -1,0 +1,24 @@
+#Script that calls make, displays readme, and waits for keypress to go next in all submission folders
+#Author: Jasmohan Bawa (Bawa.19)
+#Requires: Should be in same directory that contains folders for every student's submission
+#Last Update: 9/11/2020
+
+#!/bin/bash
+
+python unzipSubmissions.py
+
+for dir in */; do
+	echo "$dir"
+	cd "$dir"
+	make
+	cat LAB1README
+	echo "Press any key to continue"
+	while [ true ] ; do
+		read -n 1
+		if [ $? = 0 ] ; then
+			break ;
+		fi
+	done
+	cd ..
+	echo "-----------------------------------------"
+done
